@@ -539,9 +539,7 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     QtiTelephonyService \
-    ims \
     qcrilmsgtunnel \
-    WfdCommon \
     tcmclient \
     com.android.hotwordenrollment.common.util \
     com.qti.dpmframework \
@@ -555,7 +553,6 @@ PRODUCT_PACKAGES += \
     adsprpcd \
     cdsprpcd \
     cnd \
-    cnss-daemon \
     dpmQmiMgr \
     dspservice \
     android.hardware.bluetooth@1.0-service-qti \
@@ -563,7 +560,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-service-qti \
     android.hardware.keymaster@4.1-service-qti \
     android.hardware.neuralnetworks@1.3-service-qti \
-    qconfigservice \
     qcrilNrd \
     vendor.display.color@1.0-service \
     vendor.qti.esepowermanager@1.1-service \
@@ -611,7 +607,3 @@ PRODUCT_PACKAGES += \
     dpmd \
     wfdservice
 
-PRODUCT_PACKAGES += \
-
-PRODUCT_BOOT_JARS += \
-    WfdCommon
