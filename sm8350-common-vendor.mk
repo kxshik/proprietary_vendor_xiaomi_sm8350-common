@@ -172,9 +172,7 @@ PRODUCT_PACKAGES += \
     libqmi_encdec \
     libqmi_legacy \
     libqmiservices \
-    libqti-perfd-client \
     libqti-perfd \
-    libqti-util \
     libqti-utils \
     libscveCommon \
     libscveCommon_stub \
@@ -193,7 +191,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.vpp@1.1 \
     vendor.qti.hardware.vpp@1.2 \
     vendor.qti.hardware.vpp@1.3 \
-    vendor.qti.hardware.vpp@2.0 \
     vendor.qti.memory.pasrmanager@1.0 \
     vendor.qti.memory.pasrmanager@1.1 \
     btaudio_offload_if \
@@ -328,7 +325,6 @@ PRODUCT_PACKAGES += \
     libpdnotifier \
     libperipheral_client \
     libqcbor \
-    libqcc_file_agent \
     libqcrilNr \
     libqcrilNrFramework \
     libqcrilNrLogger \
@@ -349,7 +345,6 @@ PRODUCT_PACKAGES += \
     librilqmiservices \
     librpmb \
     libsdm-color \
-    libsdm-colormgr-algo \
     libsdm-diag \
     libsdm-disp-vndapis \
     libsdsprpc \
