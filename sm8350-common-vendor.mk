@@ -143,7 +143,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libGLESv1_CM_adreno \
     libq3dtools_adreno \
-    vulkan.adreno \
     libC2D2 \
     libCB \
     libOpenCL \
