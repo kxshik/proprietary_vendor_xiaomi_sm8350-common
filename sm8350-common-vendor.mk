@@ -295,7 +295,6 @@ PRODUCT_PACKAGES += \
     libQnnHtpAltPrepStub \
     libadsp_default_listener \
     libadsprpc \
-    libaoa \
     libbtnv \
     libcacertclient \
     libcdfw \
@@ -311,7 +310,6 @@ PRODUCT_PACKAGES += \
     libdisplayqos \
     libdisplayskuutils \
     libdpmqmihal \
-    libdpps \
     libdrmfs \
     libdrmtime \
     libhdr_tm \
@@ -416,7 +414,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.data.slm@1.0 \
     vendor.qti.esepowermanager@1.0 \
     vendor.qti.esepowermanager@1.1 \
-    vendor.qti.gnss@1.0 \
     vendor.qti.gnss@1.1 \
     vendor.qti.gnss@1.2 \
     vendor.qti.gnss@2.0 \
