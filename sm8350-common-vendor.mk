@@ -498,7 +498,6 @@ PRODUCT_PACKAGES += \
     libdpmframework \
     libdpmtcm \
     libimscamera_jni \
-    libimsmedia_jni \
     libmmosal \
     libmmparser_lite \
     libmmrtpdecoder \
