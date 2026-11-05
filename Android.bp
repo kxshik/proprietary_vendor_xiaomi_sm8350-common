@@ -754,48 +754,6 @@ cc_prebuilt_library_shared {
 }
 
 
-cc_prebuilt_library_shared {
-    name: "libperfioctl",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libperfioctl.so",
-            ],
-            shared_libs: [
-                "libdrm",
-                "libutils",
-                "liblog",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libperfioctl.so",
-            ],
-            shared_libs: [
-                "libdrm",
-                "libutils",
-                "liblog",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
 
 cc_prebuilt_library_shared {
     name: "libqcci_legacy",
@@ -5984,34 +5942,6 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
-cc_prebuilt_library_shared {
-    name: "liblowi_wifihal",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/liblowi_wifihal.so",
-            ],
-            shared_libs: [
-                "liblowi_client",
-                "libcutils",
-                "libutils",
-                "liblog",
-                "libgps.utils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
 
 cc_prebuilt_library_shared {
     name: "liblqe",
@@ -10658,39 +10588,6 @@ cc_prebuilt_library_shared {
 }
 
 
-cc_prebuilt_library_shared {
-    name: "lib-imsvideocodec",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/system_ext/lib64/lib-imsvideocodec.so",
-            ],
-            shared_libs: [
-                "lib-imsvtutils",
-                "lib-imsvtextutils",
-                "libcutils",
-                "libutils",
-                "liblog",
-                "libdiag_system",
-                "libgui",
-                "libandroid",
-                "libnativewindow",
-                "libmediandk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    system_ext_specific: true,
-}
 
 cc_prebuilt_library_shared {
     name: "lib-imsvt",

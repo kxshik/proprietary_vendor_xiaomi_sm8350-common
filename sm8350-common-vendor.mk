@@ -158,7 +158,6 @@ PRODUCT_PACKAGES += \
     libmmosal_vendor \
     libnetmgr \
     libperfconfig \
-    libperfioctl \
     libqcci_legacy \
     libqcmaputils \
     libqconfigclient \
@@ -310,7 +309,6 @@ PRODUCT_PACKAGES += \
     liblocationservice \
     liblocationservice_glue \
     liblowi_client \
-    liblowi_wifihal \
     liblqe \
     libmdsprpc \
     libmeters \
@@ -464,7 +462,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.latency@2.1 \
     vendor.xiaomi.hardware.citsensorservice@1.0 \
     vendor.xiaomi.hardware.citsensorservice@1.1 \
-    lib-imsvideocodec \
     lib-imsvt \
     lib-imsvtextutils \
     lib-imsvtutils \
