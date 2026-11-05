@@ -13880,32 +13880,6 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-cc_prebuilt_binary {
-    name: "mlid",
-    owner: "xiaomi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/mlid",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblowi_client",
-                "libminksocket",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
 
 cc_prebuilt_binary {
     name: "mlipayd@1.1",
@@ -14520,43 +14494,6 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-cc_prebuilt_binary {
-    name: "xtra-daemon",
-    owner: "xiaomi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/xtra-daemon",
-            ],
-            shared_libs: [
-                "libutils",
-                "libcutils",
-                "libcrypto",
-                "libssl",
-                "libsqlite",
-                "libgps.utils",
-                "libloc_core",
-                "libizat_core",
-                "liblbs_core",
-                "liblog",
-                "libandroid_net",
-                "libavservices_minijail",
-                "libcdfw_remote_api",
-                "libqcc_file_agent",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
 
 cc_prebuilt_binary {
     name: "dpmd",

@@ -569,7 +569,6 @@ PRODUCT_PACKAGES += \
     init.qti.qcv \
     irsc_util \
     mi_thermald \
-    mlid \
     mlipayd@1.1 \
     netmgrd \
     nv_mac \
@@ -590,6 +589,5 @@ PRODUCT_PACKAGES += \
     vppservice \
     wfdvndservice \
     wifidisplayhalservice \
-    xtra-daemon \
     dpmd \
 
