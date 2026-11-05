@@ -13068,13 +13068,6 @@ android_app_import {
 
 
 
-dex_import {
-    name: "tcmclient",
-    owner: "xiaomi",
-    jars: [
-        "proprietary/system/framework/tcmclient.jar",
-    ],
-}
 
 
 dex_import {
@@ -13086,14 +13079,6 @@ dex_import {
     system_ext_specific: true,
 }
 
-dex_import {
-    name: "com.qti.dpmframework",
-    owner: "xiaomi",
-    jars: [
-        "proprietary/system_ext/framework/com.qti.dpmframework.jar",
-    ],
-    system_ext_specific: true,
-}
 
 
 dex_import {
