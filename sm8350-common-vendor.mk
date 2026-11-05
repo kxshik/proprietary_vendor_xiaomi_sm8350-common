@@ -161,7 +161,6 @@ PRODUCT_PACKAGES += \
     libmmosal_vendor \
     libnetmgr \
     libperfconfig \
-    libperfgluelayer \
     libperfioctl \
     libqcci_legacy \
     libqcmaputils \
@@ -491,8 +490,6 @@ PRODUCT_PACKAGES += \
     libimscamera_jni \
     libmmosal \
     libmmparser_lite \
-    libmmrtpdecoder \
-    libmmrtpencoder \
     libwfdavenhancements \
     libwfdclient \
     libwfdcommonutils \
@@ -501,8 +498,6 @@ PRODUCT_PACKAGES += \
     libwfdmminterface \
     libwfdmmsink \
     libwfdmmsrc_system \
-    libwfdnative \
-    libwfdrtsp \
     libwfdservice \
     libwfdsinksm \
     libwfduibcinterface \
