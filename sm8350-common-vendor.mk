@@ -568,21 +568,16 @@ PRODUCT_PACKAGES += \
     imsdaemon \
     init.qti.qcv \
     irsc_util \
-    loc_launcher \
     lowi-server \
     mi_thermald \
     mlid \
     mlipayd@1.1 \
-    msm_irqbalance \
     netmgrd \
     nv_mac \
     pd-mapper \
     pm-proxy \
     pm-service \
     port-bridge \
-    power_off_alarm \
-    ppd \
-    qdcmss \
     qmipriod \
     qrtr-lookup \
     qrtr-ns \
