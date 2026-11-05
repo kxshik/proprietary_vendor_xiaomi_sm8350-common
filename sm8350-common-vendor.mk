@@ -141,9 +141,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8350-common/proprietary/vendor/etc/wifi/aoa_cldb_swl14.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/aoa_cldb_swl14.bin
 
 PRODUCT_PACKAGES += \
-    libEGL_adreno \
     libGLESv1_CM_adreno \
-    libGLESv2_adreno \
     libq3dtools_adreno \
     vulkan.adreno \
     libC2D2 \
@@ -162,7 +160,6 @@ PRODUCT_PACKAGES += \
     libfastcvopt \
     libgsl \
     libidl \
-    libllvm-glnext \
     libllvm-qcom \
     libmdmdetect \
     libmmosal_vendor \
