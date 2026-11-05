@@ -358,10 +358,8 @@ PRODUCT_PACKAGES += \
     libsdm-colormgr-algo \
     libsdm-diag \
     libsdm-disp-vndapis \
-    libsdmextension \
     libsdsprpc \
     libsn100u_fw \
-    libsnapdragoncolor-manager \
     libsnapdragoncolor-qdcm \
     libsoc_helper \
     libspcom \
