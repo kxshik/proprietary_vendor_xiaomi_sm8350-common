@@ -217,13 +217,6 @@ PRODUCT_PACKAGES += \
     libmmrtpencoder_proprietary \
     libmulawdec \
     libqc2vppfilter \
-    libqcodec2_base \
-    libqcodec2_basecodec \
-    libqcodec2_core \
-    libqcodec2_hooks \
-    libqcodec2_platform \
-    libqcodec2_utils \
-    libqcodec2_v4l2codec \
     libwfdcodecv4l2_proprietary \
     libwfdcommonutils_proprietary \
     libwfdconfigutils_proprietary \
