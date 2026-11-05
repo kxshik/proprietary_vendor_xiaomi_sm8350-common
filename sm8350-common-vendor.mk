@@ -145,7 +145,6 @@ PRODUCT_PACKAGES += \
     libGLESv1_CM_adreno \
     libGLESv2_adreno \
     libq3dtools_adreno \
-    libq3dtools_esx \
     vulkan.adreno \
     libC2D2 \
     libCB \
@@ -589,5 +588,4 @@ PRODUCT_PACKAGES += \
     vppservice \
     wfdvndservice \
     wifidisplayhalservice \
-    dpmd \
 
