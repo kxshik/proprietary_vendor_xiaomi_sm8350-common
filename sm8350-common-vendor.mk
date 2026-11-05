@@ -568,7 +568,6 @@ PRODUCT_PACKAGES += \
     imsdaemon \
     init.qti.qcv \
     irsc_util \
-    lowi-server \
     mi_thermald \
     mlid \
     mlipayd@1.1 \
