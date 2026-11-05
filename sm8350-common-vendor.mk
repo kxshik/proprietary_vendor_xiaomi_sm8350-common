@@ -142,7 +142,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libq3dtools_adreno \
-    libC2D2 \
     libadreno_utils \
     libc2d30_bltlib \
     libcdsprpc \
@@ -216,7 +215,6 @@ PRODUCT_PACKAGES += \
     libmmrtpdecoder_proprietary \
     libmmrtpencoder_proprietary \
     libmulawdec \
-    libqc2vppfilter \
     libwfdcodecv4l2_proprietary \
     libwfdcommonutils_proprietary \
     libwfdconfigutils_proprietary \
