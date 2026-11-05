@@ -141,11 +141,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8350-common/proprietary/vendor/etc/wifi/aoa_cldb_swl14.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/aoa_cldb_swl14.bin
 
 PRODUCT_PACKAGES += \
-    libGLESv1_CM_adreno \
     libq3dtools_adreno \
     libC2D2 \
-    libCB \
-    libOpenCL \
     libadreno_utils \
     libc2d30_bltlib \
     libcdsprpc \
@@ -298,7 +295,6 @@ PRODUCT_PACKAGES += \
     libbtnv \
     libcacertclient \
     libcdfw \
-    libcdfw_remote_api \
     libcdsp_default_listener \
     libcne \
     libcneapiclient \
@@ -321,7 +317,6 @@ PRODUCT_PACKAGES += \
     libkeymasterprovision \
     libkeymasterutils \
     liblbs_core \
-    liblearningmodule \
     libloc_api_v02 \
     libloc_socket \
     liblocationservice \
