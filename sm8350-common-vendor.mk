@@ -359,4 +359,30 @@ PRODUCT_PACKAGES += \
     vppservice \
     wfdvndservice \
     wifidisplayhalservice \
+    android.hardware.gatekeeper@1.0-impl-qti \
+    android.hardware.gatekeeper@1.0-service-qti \
+    android.hardware.keymaster@4.1-service-qti \
+    libGPQTEEC_vendor \
+    libGPreqcancel \
+    libGPreqcancel_svc \
+    libGPTEE_vendor \
+    libQSEEComAPI \
+    libQTEEConnector_vendor \
+    libcpion \
+    libdiag \
+    libdrmfs \
+    libdrmtime \
+    libkeymasterdeviceutils \
+    libkeymasterprovision \
+    libkeymasterutils \
+    libminkdescriptor \
+    libqcbor \
+    libqtikeymaster4 \
+    librpmb \
+    libssd \
+    libtime_genoff \
+    libtrustedapploader \
+    qseecomd \
+    vendor.qti.hardware.qteeconnector@1.0 \
+
 
