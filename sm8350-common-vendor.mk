@@ -386,7 +386,6 @@ PRODUCT_PACKAGES += \
     libadsprpc \
     libsdsprpc \
     vendor.qti.hardware.dsp@1.0 \
-    vendor.qti.hardware.data.cne.internal.api@1.0 \
     vendor.qti.hardware.data.cne.internal.constants@1.0 \
     vendor.qti.hardware.data.cne.internal.server@1.0 \
     vendor.qti.ims.factory@1.0 \
