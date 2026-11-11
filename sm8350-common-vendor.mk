@@ -386,8 +386,6 @@ PRODUCT_PACKAGES += \
     libadsprpc \
     libsdsprpc \
     vendor.qti.hardware.dsp@1.0 \
-    vendor.qti.ims.factory@1.0 \
-    vendor.qti.ims.factory@1.1 \
     qseecomd \
     vendor.qti.hardware.qteeconnector@1.0 \
 
