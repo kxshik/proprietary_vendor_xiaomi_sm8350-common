@@ -383,7 +383,14 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     libtrustedapploader \
     libadsp_default_listener \
+    libadsprpc \
     libsdsprpc \
+    vendor.qti.hardware.dsp@1.0 \
+    vendor.qti.hardware.data.cne.internal.api@1.0 \
+    vendor.qti.hardware.data.cne.internal.constants@1.0 \
+    vendor.qti.hardware.data.cne.internal.server@1.0 \
+    vendor.qti.ims.factory@1.0 \
+    vendor.qti.ims.factory@1.1 \
     qseecomd \
     vendor.qti.hardware.qteeconnector@1.0 \
 
