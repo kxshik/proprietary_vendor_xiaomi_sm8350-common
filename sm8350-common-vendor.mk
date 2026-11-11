@@ -382,6 +382,8 @@ PRODUCT_PACKAGES += \
     libssd \
     libtime_genoff \
     libtrustedapploader \
+    libadsp_default_listener \
+    libsdsprpc \
     qseecomd \
     vendor.qti.hardware.qteeconnector@1.0 \
 
